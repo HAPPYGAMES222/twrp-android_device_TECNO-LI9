@@ -47,9 +47,6 @@
 /system_ext_image      emmc		/dev/block/mapper/system_ext								        flags=display="System_EXT image";slotselect;backup;flashimg
 /product_image         emmc             /dev/block/mapper/product									flags=display="Product image";slotselect;backup;flashimg
 
-# Other
-/tranfs                   ext4      /dev/block/by-name/tranfs                              flags=display=TranFS;backup=1
-
 # Extra
 /para                     emmc      /dev/block/by-name/para
 /proinfo                  emmc      /dev/block/by-name/proinfo
