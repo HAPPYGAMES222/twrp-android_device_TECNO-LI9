@@ -186,6 +186,7 @@ TW_CUSTOM_BATTERY_POS := "790"
 
 # FastbootD
 TW_INCLUDE_FASTBOOTD := true
+TW_NO_FASTBOOT_BOOT := true
 
 # USB Configuration
 TW_EXCLUDE_DEFAULT_USB_INIT := true
