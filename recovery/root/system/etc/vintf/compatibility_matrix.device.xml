@@ -27,14 +27,6 @@
             <instance>internal/0</instance>
         </interface>
     </hal>
-	<hal format="aidl" optional="true">
-        <name>android.system.keystore2</name>
-        <version>1</version>
-        <interface>
-            <name>IKeystoreService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
     <hal format="hidl" optional="true">
         <name>android.hardware.nfc</name>
         <version>1.2</version>
@@ -270,6 +262,10 @@
             <name>IGoodixFingerprintDaemon</name>
             <instance>default</instance>
         </interface>
+        <interface>
+            <name>IGoodixFingerprintDaemonExt</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl" optional="true">
         <name>vendor.mediatek.hardware.aee</name>
@@ -317,7 +313,6 @@
         <name>vendor.mediatek.hardware.apuware.apusys</name>
         <version>1</version>
         <version>2</version>
-        <version>3</version>
         <interface>
             <name>INeuronApusys</name>
             <instance>default</instance>
@@ -731,8 +726,6 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.mediatek.hardware.mbrain</name>
-        <version>1</version>
-        <version>2</version>
         <interface>
             <name>IMBrain</name>
             <instance>default</instance>
@@ -1030,13 +1023,6 @@
         </interface>
     </hal>
     <hal format="aidl" optional="true">
-        <name>vendor.mediatek.hardware.nps.nos.fastswitch</name>
-        <interface>
-            <name>INativeFastSwitch</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="aidl" optional="true">
         <name>vendor.mediatek.hardware.nvram</name>
         <interface>
             <name>INvram</name>
@@ -1100,7 +1086,7 @@
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.mediatek.hardware.pq_aidl</name>
-        <version>1-7</version>
+        <version>1-6</version>
         <interface>
             <name>IPictureQuality_AIDL</name>
             <instance>default</instance>
@@ -1142,6 +1128,14 @@
         <name>vendor.mediatek.hardware.rcs</name>
         <interface>
             <name>IRcs</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>vendor.mediatek.hardware.sfs</name>
+        <version>1.0</version>
+        <interface>
+            <name>ISFs</name>
             <instance>default</instance>
         </interface>
     </hal>
