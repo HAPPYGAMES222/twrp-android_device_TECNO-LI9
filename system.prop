@@ -16,9 +16,5 @@ ro.vendor.mtk_trustonic_tee_support=1
 ro.hardware.kmsetkey=trustonic
 ro.hardware.gatekeeper=trustonic
 
-# Boot
-ro.boot.hardware=mt6833
-ro.boot.serialno=119023741V002774
-
 # Keymaster
 keymaster_ver=4.1
