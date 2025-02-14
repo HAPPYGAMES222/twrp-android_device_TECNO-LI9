@@ -198,7 +198,6 @@ TW_CUSTOM_BATTERY_POS := "790"
 
 # FastbootD
 TW_INCLUDE_FASTBOOTD := true
-TW_NO_FASTBOOT_BOOT := true
 
 # USB Configuration
 TW_EXCLUDE_DEFAULT_USB_INIT := true
@@ -229,4 +228,4 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_COPY_OUT_VENDOR_DLKM := vendor_dlkm
 
 # Version
-TW_DEVICE_VERSION := LI9-happy-naze
+TW_DEVICE_VERSION := LI9-happygames-naze
